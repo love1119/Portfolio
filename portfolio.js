@@ -6,11 +6,7 @@ export const greetings = {
   description: `
 			James is a hard-working, inquisitive Full Stack Developer who has mostly worked with JavaScript, TypeScript, React, Vue.js and Node.js.
 
-			He's built projects from the ground up, including design, development, and deployment, and managed dependencies across multiple product teams to drive larger projects to completion.
-
 			With strong problem-solving skills and the ability to adapt to any situation, he has been working remotely with international teams for the last 7 years, contributing to the development of outstanding solutions.
-
-			He values communication and trust most when working with remote teams.
 		`,
   resumeLink:
     "https://drive.google.com/file/d/1TLEcKeJ6ScJYNDisaiLSzHnWFqiRy-JD/view?usp=share_link",

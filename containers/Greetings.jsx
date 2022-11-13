@@ -33,7 +33,7 @@ const Greetings = () => {
 									<h1 className="display-3 text-white">
 										{greetings.title + " "}
 									</h1>
-									<p className="lead text-white">
+									<p className="lead text-white" style={{ whiteSpace: 'pre-line' }}>
 										{greetings.description}
 									</p>
 									<SocialLinks />
