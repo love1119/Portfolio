@@ -182,16 +182,24 @@ export const skillsSection = {
 
 export const SkillBars = [
   {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    Stack: "HTML/CSS", //Insert stack or technology you have experience in
     progressPercentage: "90", //Insert relative proficiency in percentage
   },
   {
-    Stack: "Backend",
-    progressPercentage: "70",
+    Stack: "JavaScript/TypeScript",
+    progressPercentage: "90",
   },
   {
-    Stack: "Programming",
-    progressPercentage: "60",
+    Stack: "React/Next",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "Vue/Nuxt",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "NodeJS",
+    progressPercentage: "80",
   },
 ];
 
