@@ -205,15 +205,9 @@ export const SkillBars = [
 
 export const educationInfo = [
   {
-    schoolName: "Harvard University",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
-    desc: "Participated in the research of XXX and published 3 papers.",
-    grade: "Grade A",
-    descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    ],
+    schoolName: "Vancouver Island University",
+    subHeader: "Bachelor's degree in Computer Science",
+    duration: "September 2008 - April 2012",
   },
 ];
 
