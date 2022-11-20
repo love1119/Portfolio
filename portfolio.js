@@ -29,7 +29,8 @@ export const socialLinks = {
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "FRONT END / FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "FRONT END / FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Front End / Full Stack Development",
@@ -39,7 +40,9 @@ export const skillsSection = {
           "⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js and Vue.js"
         ),
         emoji("⚡ Building responsive static websites using Next.js / Nuxt.js"),
-        emoji("⚡ Building RESTful & GraphQL APIs using Node.js and Express.js"),
+        emoji(
+          "⚡ Building RESTful & GraphQL APIs using Node.js and Express.js"
+        ),
       ],
       softwareSkills: [
         {
@@ -213,36 +216,70 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Frontend Developer",
-    company: "Duseca Software",
-    companylogo: "/img/icons/common/dusecaSoftware.jpg",
-    date: "Apr 2022 – Jun 2022",
-    desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+    role: "Professional Freelancer",
+    company: "Self Employed",
+    companylogo: "/img/icons/common/self-employed.jpg",
+    date: "Oct 2015 – Present",
+    desc: "I have been working as a freelancer for the last 7 years",
+    descBullets: [
+      "Contributed to many projects using React, Vue.js, and Node.js.",
+      "Worked mostly with startups, in small teams, and was involved in all of the project lifecycle phases.",
+      "Architected and developed complex solutions using both NoSQL and SQL databases.",
+    ],
   },
   {
-    role: "API Engineer",
-    company: "Duseca Software",
-    companylogo: "/img/icons/common/dusecaSoftware.jpg",
-    date: "Jan 2022 – Mar 2022",
-    desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "Senior Frontend Developer",
+    company: "Liven",
+    companylogo: "/img/icons/common/liven.jpg",
+    date: "Aug 2021 – Jul 2022",
+    desc: "Liven is a global tech start-up and winner of Richard Branson's Extreme Tech Challenge for Blockchain and Digital Payments.",
+    descBullets: [
+      "Created mobile-first, responsive interfaces using Vue.js and integrated JSON APIs.",
+      "Improved the user experience to make the app faster and help efficiently load webpages for users with a slow internet connection or outdated devices using Nuxt.js.",
+    ],
   },
   {
-    role: "Full Stack Developer",
-    company: "Bleed-AI",
-    companylogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+    role: "Front End Developer",
+    company: "Kiid",
+    companylogo: "/img/icons/common/kiid.jpg",
+    date: "Aug 2020 - Aug 2021",
+    desc: "Kiid Concierge is a complete childcare solution for your employees. Our subscription gives them to access an on-demand service for booking trusted babysitters, early childhood educators, and tutors. Add Kiid Concierge to your benefits program to help promote a healthy work-life balance.",
   },
   {
-    role: "Backend Developer",
-    company: "Wapidu",
-    companylogo: "/img/icons/common/wapidu.jpg",
-    date: "Sept 2021",
-    desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+    role: "Software Engineer",
+    company: "Perform Group, LLC",
+    companylogo: "/img/icons/common/perform.jpg",
+    date: "Jul 2019 - Jul 2020",
+    desc: "",
+    descBullets: [
+      "Helped customers with eCommerce and marketplaces using our leading-edge Avetti Commerce Platform",
+      "Designed the application architecture on TypeScript, React, and Redux",
+      "Designed RESTful APIs with a subteam of back-end developers",
+    ],
+  },
+  {
+    role: "Vue / Node Developer",
+    company: "IT Horizons",
+    companylogo: "/img/icons/common/horiizon.jpg",
+    date: "Nov 2018 - Jun 2019",
+    desc: "",
+    descBullets: [
+      "Developed a web interface using Vue.js to perform CRUD operations on tasks with large files, driving up the performance of the workflow pipeline by 60%.",
+      "Designed a credit payment system with premium plans and integrated the application with Stripe API using Node.js to accept online payments.",
+      "...",
+    ],
+  },
+  {
+    role: "Full Stack React Developer",
+    company: "Waterbear Cloud",
+    companylogo: "/img/icons/common/watercloud.jpg",
+    date: "Apr 2017 - Nov 2018",
+    desc: "",
+    descBullets: [
+      "Developed a booking application using React, Next.js, and Node.js to let users book a service online and get real-time updates on their progress, increasing the customer acquisition and retention rate by 55% in three months.",
+      "Designed the architecture of the front end, back end, and database schema, which I then deployed on different Docker containers to achieve better load balancing, health monitoring, and scalability.",
+      "...",
+    ],
   },
 ];
 
