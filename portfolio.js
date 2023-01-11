@@ -309,14 +309,14 @@ export const projects = [
 
 export const feedbacks = [
   {
-    name: "John Smith",
+    name: "Jack Green",
     feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+      "Working with James is a real pleasure, he took the time to understand the problem and explore various options using his experiences before even taking on the job, I think it shows his commitment to technical excellence. Plus he has broad knowledge in NLP, computer vision and backend engineering, which is rare combination. I would not hesitate to work with James when the next opportunity arises.",
   },
   {
-    name: "John Smith",
+    name: "Tyler Hale",
     feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+      "I've worked with James on several different projects and have always admired the positive attitude he brings when discussing new ideas and solutions. He has a wealth of experience across the technology stack and stays on trend with many of the latest technologies. If you're looking for a creative leader with a proven track record of engineering enterprise solutions, then James is your guy.",
   },
 ];
 
