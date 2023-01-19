@@ -13,7 +13,11 @@ const ProjectsCard = ({ data }) => {
             <div className="portfolio-project-main d-flex px-3">
               <div className="d-flex flex-column align-items-center w-100 pl-4">
                 <h3>{data.name}</h3>
-                <div className="portfolio-project-preview">
+                <div
+                  className={`portfolio-project-preview ${
+                    data.name === "Restaurant Systems" ? "mobile" : ""
+                  }`}
+                >
                   <img src={data.preview} alt={data.preview} />
                 </div>
                 {data.github ? (

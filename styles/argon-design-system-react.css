@@ -22732,9 +22732,16 @@ td.rdtYear:hover {
 	margin-bottom: 16px;
 }
 
+.portfolio-project-preview.mobile {
+	border: 5px solid black;
+    border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
+}
+
 .portfolio-project-preview img {
 	width: 100%;
-	object-fit: cover;
+	object-fit: contain;
 	height: 350px;
 }
 
