@@ -22774,11 +22774,11 @@ td.rdtYear:hover {
 }
 
 .portfolio-project-card:hover .portfolio-project-main {
-	visibility: hidden;
+	/* visibility: hidden; */
 }
 
 .portfolio-project-card:hover .portfolio-project-backdrop {
-	display: flex;
+	/* display: flex; */
 }
 
 .portfolio-project-name {
