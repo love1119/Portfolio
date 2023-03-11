@@ -9,7 +9,7 @@ export const greetings = {
 			With strong problem-solving skills and the ability to adapt to any situation, he has been working remotely with international teams for the last 7 years, contributing to the development of outstanding solutions.
 		`,
   resumeLink:
-    "https://drive.google.com/file/d/1U4dNVHqQZltMApY2-aN2mrk2PNPa2l2B/view",
+    "https://drive.google.com/file/d/1_dzL6ohoTH0NG7UXleJAUHj7mwrZKEeo/view",
 };
 
 export const openSource = {
@@ -216,22 +216,10 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Professional Freelancer",
-    company: "Self Employed",
-    companylogo: "/img/icons/common/self-employed.jpg",
-    date: "Oct 2015 – Present",
-    desc: "I have been working as a freelancer for the last 7 years",
-    descBullets: [
-      "Contributed to many projects using React, Vue.js, and Node.js.",
-      "Worked mostly with startups, in small teams, and was involved in all of the project lifecycle phases.",
-      "Architected and developed complex solutions using both NoSQL and SQL databases.",
-    ],
-  },
-  {
     role: "Senior Frontend Developer",
     company: "Liven",
     companylogo: "/img/icons/common/liven.jpg",
-    date: "Aug 2021 – Jul 2022",
+    date: "Aug 2021 – Jan 2023",
     desc: "Liven is a global tech start-up and winner of Richard Branson's Extreme Tech Challenge for Blockchain and Digital Payments.",
     descBullets: [
       "Created mobile-first, responsive interfaces using Vue.js and integrated JSON APIs.",
