@@ -9,7 +9,7 @@ export const greetings = {
 			With strong problem-solving skills and the ability to adapt to any situation, he has been working remotely with international teams for the last 7 years, contributing to the development of outstanding solutions.
 		`,
   resumeLink:
-    "https://drive.google.com/file/d/1ey9qawXDPfTKEJjb3qKQOmc_3LexAiaT/view?usp=share_link",
+    "https://drive.google.com/file/d/1_dzL6ohoTH0NG7UXleJAUHj7mwrZKEeo/view",
 };
 
 export const openSource = {
@@ -216,22 +216,10 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Professional Freelancer",
-    company: "Self Employed",
-    companylogo: "/img/icons/common/self-employed.jpg",
-    date: "Oct 2015 – Present",
-    desc: "I have been working as a freelancer for the last 7 years",
-    descBullets: [
-      "Contributed to many projects using React, Vue.js, and Node.js.",
-      "Worked mostly with startups, in small teams, and was involved in all of the project lifecycle phases.",
-      "Architected and developed complex solutions using both NoSQL and SQL databases.",
-    ],
-  },
-  {
     role: "Senior Frontend Developer",
     company: "Liven",
     companylogo: "/img/icons/common/liven.jpg",
-    date: "Aug 2021 – Jul 2022",
+    date: "Aug 2021 – Jan 2023",
     desc: "Liven is a global tech start-up and winner of Richard Branson's Extreme Tech Challenge for Blockchain and Digital Payments.",
     descBullets: [
       "Created mobile-first, responsive interfaces using Vue.js and integrated JSON APIs.",
@@ -285,38 +273,97 @@ export const experience = [
 
 export const projects = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "",
-    link: "",
+    name: "Childcare Solution",
+    desc: [
+      "Designed and implemented various screens for childcare solution.",
+      "Done with user authentication & management",
+      "Developed the front-end dashboard using React, ReCharts.js and Chakra-UI, where I built several layered interactive graphs to display complex data in a digestible manner.",
+      "Developed modules for 3 best-in-class services: Kiid On Demand, Kiid Weekly and Kiid Tutoring",
+    ],
+    tags: [
+      "Next.js",
+      "React",
+      "Context API",
+      "Chakra UI",
+      "TypeScript",
+      "Jest",
+      "Cypress",
+    ],
+    link: "https://kiid.ca/",
+    preview: "/img/projects/kiid.png",
   },
   {
-    name: "AtlasMart",
-    desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-    github: "",
+    name: "Restaurant Systems",
+    desc: [],
+    tags: ["React", "React Native", "Tailwind CSS", "Jest", "TypeScript"],
+    link: "https://www.liven.love/",
+    preview: "/img/projects/liven.gif",
   },
   {
-    name: "Technota (Forum)",
-    desc: "Get hands-on experience in technical skills with Technota",
-    github: "",
+    name: " Pool Mining",
+    desc: [],
+    tags: [
+      "React",
+      "Redux",
+      "TypeScript",
+      "HighCharts.js",
+      "Stripe",
+      "React-Testing",
+      "Cypress",
+      "WebSocket",
+    ],
+    link: "https://ubit.ca/",
+    preview: "/img/projects/ubit.png",
   },
   {
-    name: "Shopaza (Ecommerce)",
-    desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-    github: "",
+    name: "Interactive Product Demos Software",
+    desc: [],
+    tags: [
+      "React",
+      "Redux",
+      "Redux-Saga",
+      "React-Query",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+    ],
+    link: "https://www.storylane.io/",
+    preview: "/img/projects/storylane.png",
+  },
+  {
+    name: "Best Customizable Portal Software",
+    desc: [],
+    tags: ["Vue", "Nuxt.js", "Vuex", "Bootstrap", "HTML", "SCSS", "WebSocket"],
+    link: "https://www.joinportal.com/",
+    preview: "/img/projects/joinportal.jpg",
+  },
+  {
+    name: "Healthcare Price Intelligence and Contract Management",
+    desc: [],
+    tags: [
+      "React",
+      "Redux",
+      "Material-UI",
+      "Storybook",
+      "HTML",
+      "CSS/SCSS",
+      "Heroku",
+    ],
+    link: "https://www.serifhealth.com/",
+    preview: "/img/projects/serifhealth.gif",
   },
 ];
 
 export const feedbacks = [
   {
-    name: "John Smith",
+    name: "Jack Green",
     feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+      "Working with James is a real pleasure, he took the time to understand the problem and explore various options using his experiences before even taking on the job, I think it shows his commitment to technical excellence. Plus he has broad knowledge in NLP, computer vision and backend engineering, which is rare combination. I would not hesitate to work with James when the next opportunity arises.",
   },
   {
-    name: "John Smith",
+    name: "Tyler Hale",
     feedback:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+      "I've worked with James on several different projects and have always admired the positive attitude he brings when discussing new ideas and solutions. He has a wealth of experience across the technology stack and stays on trend with many of the latest technologies. If you're looking for a creative leader with a proven track record of engineering enterprise solutions, then James is your guy.",
   },
 ];
 
