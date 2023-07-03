@@ -1,5 +1,3 @@
-import emoji from "react-easy-emoji";
-
 export const greetings = {
   name: "James Yin",
   title: "Hi all, I'm James",
@@ -36,13 +34,9 @@ export const skillsSection = {
       title: "Front End / Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json",
       skills: [
-        emoji(
-          "⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js and Vue.js"
-        ),
-        emoji("⚡ Building responsive static websites using Next.js / Nuxt.js"),
-        emoji(
-          "⚡ Building RESTful & GraphQL APIs using Node.js and Express.js"
-        ),
+        "⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js and Vue.js",
+        "⚡ Building responsive static websites using Next.js / Nuxt.js",
+        "⚡ Building RESTful & GraphQL APIs using Node.js and Express.js",
       ],
       softwareSkills: [
         {
@@ -95,13 +89,9 @@ export const skillsSection = {
       title: "Cloud Infra-Architecture",
       lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Experience of working on multiple cloud platforms"),
-        emoji(
-          "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-        ),
-        emoji(
-          "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-        ),
+        "⚡ Experience of working on multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       softwareSkills: [
         // ? Check README To get icon details
