@@ -7,7 +7,7 @@ export const greetings = {
 			With strong problem-solving skills and the ability to adapt to any situation, he has been working remotely with international teams for the last 7 years, contributing to the development of outstanding solutions.
 		`,
   resumeLink:
-    "https://drive.google.com/file/d/1GuhOcOkZU4-Jt-VWDyAHgZH84HdhkskN/view",
+    "https://drive.google.com/file/d/1aJU0divnrECPO_mkL_hjXvVKDR7T28l-/view",
 };
 
 export const openSource = {
