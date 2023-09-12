@@ -39,6 +39,7 @@ export const skillsSection = {
         "⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js and Vue.js",
         "⚡ Building responsive static websites using Next.js / Nuxt.js",
         "⚡ Building RESTful & GraphQL APIs using Node.js and Express.js",
+        "⚡ Creating AI platforms using Open AI",
       ],
       softwareSkills: [
         {
@@ -84,6 +85,10 @@ export const skillsSection = {
         {
           skillName: "PHP",
           fontAwesomeClassname: "logos:php",
+        },
+        {
+          skillName: "OpenAI",
+          fontAwesomeClassname: "logos:openai-icon",
         },
       ],
     },
@@ -195,6 +200,10 @@ export const SkillBars = [
   {
     Stack: "NodeJS",
     progressPercentage: "80",
+  },
+  {
+    Stack: "OpenAI",
+    progressPercentage: "70",
   },
 ];
 
