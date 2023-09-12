@@ -2,7 +2,9 @@ export const greetings = {
   name: "James Yin",
   title: "Hi all, I'm James",
   description: `
-			James is a hard-working, inquisitive Full Stack Developer who has mostly worked with JavaScript, TypeScript, React, Vue.js and Node.js.
+      James is an experienced Software Engineer with over 9 years of experience working in JavaScript languages.
+
+      Lately, he's been focusing on ReactJS, VueJS and Node.js. James can build any project from the ground up and is known for writing well-designed, testable, and efficient code using best practices.
 
 			With strong problem-solving skills and the ability to adapt to any situation, he has been working remotely with international teams for the last 7 years, contributing to the development of outstanding solutions.
 		`,
@@ -207,9 +209,21 @@ export const educationInfo = [
 export const experience = [
   {
     role: "Senior Frontend Developer",
+    company: "Labelbox",
+    companylogo: "/img/icons/common/labelbox.webp",
+    date: "Aug 2022 – Jul 2023",
+    desc: "",
+    descBullets: [
+      "Created AI platform to enrich your data catalog and automate common and repetitive tasks.",
+      "Used algorithms to enhance the accuracy and efficiency of the annotation process.",
+      "Implemented the visualization of any type of data from any data source in one place.",
+    ],
+  },
+  {
+    role: "Frontend Developer",
     company: "Liven",
     companylogo: "/img/icons/common/liven.jpg",
-    date: "Aug 2021 – May 2023",
+    date: "Aug 2021 – Jul 2022",
     desc: "Liven is a global tech start-up and winner of Richard Branson's Extreme Tech Challenge for Blockchain and Digital Payments.",
     descBullets: [
       "Created mobile-first, responsive interfaces using Vue.js and integrated JSON APIs.",
@@ -236,7 +250,7 @@ export const experience = [
     ],
   },
   {
-    role: "Vue / Node Developer",
+    role: "Full Stack Developer",
     company: "IT Horizons",
     companylogo: "/img/icons/common/horiizon.jpg",
     date: "Nov 2018 - Jun 2019",
@@ -248,14 +262,14 @@ export const experience = [
     ],
   },
   {
-    role: "Full Stack React Developer",
-    company: "Waterbear Cloud",
-    companylogo: "/img/icons/common/watercloud.jpg",
-    date: "Apr 2017 - Nov 2018",
+    role: "Web Developer",
+    company: "Orfeostory Pte Ltd",
+    companylogo: "/img/icons/common/orfeostory.jpg",
+    date: "Aug 2013 - Nov 2018",
     desc: "",
     descBullets: [
-      "Developed a booking application using React, Next.js, and Node.js to let users book a service online and get real-time updates on their progress, increasing the customer acquisition and retention rate by 55% in three months.",
-      "Designed the architecture of the front end, back end, and database schema, which I then deployed on different Docker containers to achieve better load balancing, health monitoring, and scalability.",
+      "Created an internal system to monitor ongoing projects using HTML and CSS, Twitter Bootstrap, CodeIgniter, and multiple custom plugins.",
+      "Provided QA and testing for specific modules and functions, reporting any detected bugs or issues.",
       "...",
     ],
   },
