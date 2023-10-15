@@ -2,14 +2,14 @@ export const greetings = {
   name: "James Yin",
   title: "Hi all, I'm James",
   description: `
-      James is an experienced Software Engineer with over 9 years of experience working in JavaScript languages.
+      James is an experienced Front End Engineer with over 9 years of experience working in JavaScript languages.
 
       Lately, he's been focusing on ReactJS, VueJS and Node.js. James can build any project from the ground up and is known for writing well-designed, testable, and efficient code using best practices.
 
 			With strong problem-solving skills and the ability to adapt to any situation, he has been working remotely with international teams for the last 7 years, contributing to the development of outstanding solutions.
 		`,
   resumeLink:
-    "https://drive.google.com/file/d/1aJU0divnrECPO_mkL_hjXvVKDR7T28l-/view",
+    "https://drive.google.com/file/d/1e2j9tTaP_pqK_3XEpxaoaCczFpZvrGOS/view",
 };
 
 export const openSource = {
