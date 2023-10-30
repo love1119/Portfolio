@@ -20,22 +20,25 @@ const ExperienceCard = ({ data }) => {
           className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
         >
           <CardBody className="">
-			<img
-				src={data.companylogo}
-				style={{
-				objectFit: "cover",
-				left: 0,
-				right: 0,
-				top: "7rem",
-				marginLeft: "auto",
-				marginRight: "auto",
-				width: "8rem",
-				height: "8rem",
-				borderRadius: "50%",
-				}}
-				className="shadow mb-3"
-				alt={data.companylogo}
-			/>
+            <a href={data.link} target="_blank">
+              <img
+                src={data.companylogo}
+                style={{
+                  objectFit: "cover",
+                  left: 0,
+                  right: 0,
+                  top: "7rem",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  width: "8rem",
+                  height: "8rem",
+                  borderRadius: "50%",
+                }}
+                className="shadow mb-3"
+                alt={data.companylogo}
+              />
+
+            </a>
             <CardTitle tag="h4" className="mb-2">
               {data.company}
             </CardTitle>
@@ -48,8 +51,8 @@ const ExperienceCard = ({ data }) => {
               <ul style={{ paddingLeft: "1rem" }}>
                 {data.descBullets
                   ? data.descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>;
-                    })
+                    return <li key={desc}>{desc}</li>;
+                  })
                   : null}
               </ul>
             </CardText>
