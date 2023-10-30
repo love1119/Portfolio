@@ -20,7 +20,7 @@ const ExperienceCard = ({ data }) => {
           className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
         >
           <CardBody className="">
-            <a href={data.link} target="_blank">
+            <a href={data.link} target="_blank" rel="noreferrer">
               <img
                 src={data.companylogo}
                 style={{
