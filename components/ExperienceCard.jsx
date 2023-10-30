@@ -7,7 +7,6 @@ import {
   CardSubtitle,
   CardText,
   Col,
-  NavLink,
 } from "reactstrap";
 
 import { Fade } from "react-reveal";
