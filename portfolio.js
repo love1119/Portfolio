@@ -4,12 +4,12 @@ export const greetings = {
   description: `
       James is an experienced Front End Engineer with over 9 years of experience working in JavaScript languages.
 
-      Lately, he's been focusing on ReactJS, VueJS and Node.js. James can build any project from the ground up and is known for writing well-designed, testable, and efficient code using best practices.
+      Lately, he's been focusing on ReactJS and Node.js. James can build any project from the ground up and is known for writing well-designed, testable, and efficient code using best practices.
 
 			With strong problem-solving skills and the ability to adapt to any situation, he has been working remotely with international teams for the last 7 years, contributing to the development of outstanding solutions.
 		`,
   resumeLink:
-    "https://drive.google.com/file/d/1e2j9tTaP_pqK_3XEpxaoaCczFpZvrGOS/view",
+    "https://drive.google.com/file/d/1SCr63MoNTb2zm_Ua8dIhPm4a5d_-vfEy/view",
 };
 
 export const openSource = {
@@ -183,15 +183,15 @@ export const skillsSection = {
 export const SkillBars = [
   {
     Stack: "HTML/CSS", //Insert stack or technology you have experience in
-    progressPercentage: "90", //Insert relative proficiency in percentage
+    progressPercentage: "100", //Insert relative proficiency in percentage
   },
   {
     Stack: "JavaScript/TypeScript",
-    progressPercentage: "90",
+    progressPercentage: "100",
   },
   {
     Stack: "React/Next",
-    progressPercentage: "90",
+    progressPercentage: "100",
   },
   {
     Stack: "Vue/Nuxt",
@@ -217,46 +217,58 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: "Senior Frontend Developer",
-    company: "Labelbox",
-    companylogo: "/img/icons/common/labelbox.webp",
+    role: "Principal React Developer",
+    company: "Rip Bull Networks",
+    companylogo: "/img/icons/common/rbn.jpg",
     date: "Aug 2022 – Jul 2023",
     desc: "",
     descBullets: [
-      "Created AI platform to enrich your data catalog and automate common and repetitive tasks.",
-      "Used algorithms to enhance the accuracy and efficiency of the annotation process.",
-      "Implemented the visualization of any type of data from any data source in one place.",
+      "Created the responsive UIs based on Figma designs using React/Redux.",
+      "Rendered the dynamic-sized and large Masonry layout with React-Virtualized",
+      "Built Chat SDKs with JavaScript and published it as an npm library.",
+      "Connected multiple NLU providers (Google DialogFlow, IBM Watson, Amazon Lex, and others) into one Chatbot",
     ],
+    link: "https://inappchat.io/",
   },
   {
-    role: "Frontend Developer",
+    role: "React Front End Developer",
     company: "Liven",
     companylogo: "/img/icons/common/liven.jpg",
     date: "Aug 2021 – Jul 2022",
-    desc: "Liven is a global tech start-up and winner of Richard Branson's Extreme Tech Challenge for Blockchain and Digital Payments.",
+    desc: "",
     descBullets: [
-      "Created mobile-first, responsive interfaces using Vue.js and integrated JSON APIs.",
-      "Improved the user experience to make the app faster and help efficiently load webpages for users with a slow internet connection or outdated devices using Nuxt.js.",
+      "Created landing pages and mobile app for restaurant system",
+      "Created mobile-first, responsive interfaces using React.js and integrated JSON APIs.",
+      "Worked on Cross-Browser compatibility issues and tested in all devices and browsers.",
+      "Performed unit testing to reduce regression and stabilize existing services.",
     ],
+    link: "https://www.liven.love/"
   },
   {
-    role: "Front End Developer",
-    company: "Kiid",
-    companylogo: "/img/icons/common/kiid.jpg",
+    role: "Team Lead - Front End",
+    company: "Hacking HR",
+    companylogo: "/img/icons/common/hackinghr.png",
     date: "Aug 2020 - Aug 2021",
-    desc: "Kiid Concierge is a complete childcare solution for your employees. Our subscription gives them to access an on-demand service for booking trusted babysitters, early childhood educators, and tutors. Add Kiid Concierge to your benefits program to help promote a healthy work-life balance.",
+    desc: "",
+    descBullets: [
+      "Created the website for Hacking HR Community with React/Redux from scratch.",
+      "Created the reusable components with Ant Design component library.",
+      "Enhanced the state management system with Redux, Reselect, Redux-Actions, and Redux Saga.",
+    ],
+    link: "https://www.hackinghrlab.io/",
   },
   {
-    role: "Software Engineer",
-    company: "Perform Group, LLC",
-    companylogo: "/img/icons/common/perform.jpg",
+    role: "React / Redux Front End Developer",
+    company: "Nexvel Solutions",
+    companylogo: "/img/icons/common/nexvelsolutions.png",
     date: "Jul 2019 - Jul 2020",
     desc: "",
     descBullets: [
-      "Helped customers with eCommerce and marketplaces using our leading-edge Avetti Commerce Platform",
       "Designed the application architecture on TypeScript, React, and Redux",
-      "Designed RESTful APIs with a subteam of back-end developers",
+      "Built a front-end component library which became the company standard by using TailwindCSS and React, and published it as a npm library.",
+      "Created and improved graphical D3.js sports widgets - like pitches with positions and movements of players",
     ],
+    link: "https://www.nexvelsolutions.com/"
   },
   {
     role: "Full Stack Developer",
@@ -269,6 +281,7 @@ export const experience = [
       "Designed a credit payment system with premium plans and integrated the application with Stripe API using Node.js to accept online payments.",
       "...",
     ],
+    link: "https://www.ithorizons.ca/"
   },
   {
     role: "Web Developer",
@@ -281,6 +294,7 @@ export const experience = [
       "Provided QA and testing for specific modules and functions, reporting any detected bugs or issues.",
       "...",
     ],
+    link: "https://www.orfeostory.com/"
   },
 ];
 
